@@ -26,9 +26,15 @@ The full set of files related to this course are owned by Udacity, so they are n
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+1. `HowToBreakIntoTheField.ipynb` - Explores what current developers recommend for breaking into the field. Analyzes the `CousinEducation` survey column to rank suggestions (online courses, books, bootcamps, etc.) and investigates whether recommendations differ based on the gender of the person asking (bias analysis).
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+2. `BootcampStats.ipynb` - Investigates the impact of coding bootcamps on job placement and salary. Compares bootcamp graduates to non-bootcamp respondents across gender diversity, formal education levels, time-to-employment after graduation, and salary distributions.
+
+3. `Salary.ipynb` - Builds predictive models for developer salary using sklearn's LinearRegression. Walks through iterative feature engineering with both numeric and categorical variables, evaluates model performance (R-squared), and identifies which factors most influence salary.
+
+4. `Salary_ML.py` - A standalone Python script containing reusable functions (`clean_data` and `find_optimal_lm_mod`) for the salary prediction pipeline. Handles data cleaning (missing value imputation, dummy variable creation) and finds the optimal linear regression model by testing different feature-count cutoffs.
+
+Each notebook is exploratory in nature, with markdown cells walking through the thought process for individual steps.
 
 ## Results<a name="results"></a>
 
